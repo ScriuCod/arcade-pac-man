@@ -1,0 +1,27 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=":.C3VP8@2!:IMc[F*!:}">Player</variable><variable type="KIND_SpriteKind" id="YZwI^]!EJm:b$eV`6${O">Projectile</variable><variable type="KIND_SpriteKind" id="s){0$U06K+Zl$ujfZ/S5">Food</variable><variable type="KIND_SpriteKind" id="BHD08;!PkW4b8L4[GUjM">Enemy</variable><variable id="Y](B!~^%4;EY|Z^f~-}.">mySprite</variable><variable id="/.cki9yrTxz#duXTRBy}">sprPacMan</variable></variables><block type="pxt-on-start" id="eR(}?)WqM92vx;2kC397" x="330" y="110"><statement name="HANDLER"><block type="variables_set" id="Orx(|vx5Z771VnfGD1KJ"><field name="VAR" id="/.cki9yrTxz#duXTRBy}">sprPacMan</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="X/,_5lcdZPJBkKspZ3NW"><value name="img"><shadow type="screen_image_picker" id="m)0NpuKu~:TIQu~`TPP/"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 5 e e 5 5 5 5 5 5 . . 
+. . 5 5 5 5 e e 5 5 5 5 5 5 5 . 
+. . 5 5 5 5 5 5 5 5 5 5 5 5 5 . 
+. 5 5 5 5 5 5 5 5 5 5 5 5 5 . . 
+. 5 5 5 5 5 5 5 5 5 5 5 . . . . 
+. 5 5 5 5 5 5 5 5 5 . . . . . . 
+. 5 5 5 5 5 5 5 . . . . . . . . 
+. 5 5 5 5 5 5 5 5 . . . . . . . 
+. 5 5 5 5 5 5 5 5 5 . . . . . . 
+. . 5 5 5 5 5 5 5 5 5 5 . . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 5 5 5 5 5 5 5 5 5 . . 
+. . . . . 5 5 5 5 5 5 5 5 . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="kRbB}`%NIJ?EOcj4}/x8"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="tilemap_editor" id="1YVxs^S]FU)n~4.#_A^X"><field name="tilemap">tiles.createTilemap(hex`0a00080001080808080808080802090b0b0b0a0b0b0d0b07090d0a0a0a0a0a0a0b07090b0a0b0b0b0c0b0b07090b0a0a0a0a0a0a0a07090b0b0a0b0b0a0b0b070306060606060606060405050505050505050505`, img`
+. . . . . . . . . . 
+. 2 2 2 . 2 2 . 2 . 
+. . . . . . . . 2 . 
+. 2 . 2 2 2 . 2 2 . 
+. 2 . . . . . . . . 
+. 2 2 . 2 2 . 2 2 . 
+. . . . . . . . . . 
+2 2 2 2 2 2 2 2 2 2 
+`, [myTiles.transparency16,sprites.castle.tilePath1,sprites.castle.tilePath3,sprites.castle.tilePath7,sprites.castle.tilePath9,sprites.castle.tileGrass1,sprites.castle.tilePath8,sprites.castle.tilePath6,sprites.castle.tilePath2,sprites.castle.tilePath4,sprites.castle.tilePath5,sprites.dungeon.floorLight0,myTiles.tile1,myTiles.tile2], TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="8m$Q5]05RhNyEeoDg2z|"><value name="sprite"><block type="variables_get" id="I9;|8XJjU)`*=)l9Wjwe"><field name="VAR" id="/.cki9yrTxz#duXTRBy}">sprPacMan</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="7q,m:NeUK|L;})]m=uHO"><field name="tile">myTiles.tile1</field></shadow></value><next><block type="game_control_sprite" id="XbPNs`A9AA7tkhMm5?$~"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="AjDeHLeGlrxq~+v{Yp(B"><field name="VAR" id="/.cki9yrTxz#duXTRBy}">sprPacMan</field></block></value><value name="vx"><shadow type="math_number" id="OCWx8Vy^A)$_}XWiORA,"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="X;RlZe2Z$.8$F)]-MDRF"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
