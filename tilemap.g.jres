@@ -14,6 +14,27 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
+    "level": {
+        "id": "level",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwYTAwMDgwMDAxMDgwODA4MDgwODA4MDgwODAyMDkwYjBiMGIwYTBiMGIwZDBiMDcwOTBkMGEwYTBhMGEwYTBhMGIwNzA5MGIwYTBiMGIwYjBjMGIwYjA3MDkwYjBhMGEwYTBhMGEwYTBhMDcwOTBiMGIwYTBiMGIwYTBiMGIwNzAzMDYwNjA2MDYwNjA2MDYwNjA0MDUwNTA1MDUwNTA1MDUwNTA1MDUwMDAwMDAwMDAwMjAyMjIwMDIwMjAwMDAwMDAwMDIyMDIwMjIyMDAyMjAwMDAwMDAwMDIwMDIyMjIwMDIwMDAwMDAwMDAwMjIyMjIyMjIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.castle.tilePath1",
+            "sprites.castle.tilePath3",
+            "sprites.castle.tilePath7",
+            "sprites.castle.tilePath9",
+            "sprites.castle.tileGrass1",
+            "sprites.castle.tilePath8",
+            "sprites.castle.tilePath6",
+            "sprites.castle.tilePath2",
+            "sprites.castle.tilePath4",
+            "sprites.castle.tilePath5",
+            "sprites.dungeon.floorLight0",
+            "myTiles.tile1",
+            "myTiles.tile2"
+        ]
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
